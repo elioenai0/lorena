@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--CONFIGURAÇÕES DE CRIAÇÃO-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fono Lorena</title>
+
+    <!--CONEXÕES: ARQUIVOS INTERNOS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--CONEXÕES: ARQUIVOS INTERNOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html">
+        <header>
+            <div id="logo"></div>
+            <div id="Assinatura">Lorena Gomes</div>
+            <div>Fonoaudióloga Especialista em disfagia</div>
+        </header>
+    </a>
+
+    <nav id="testesss">
+        <a class="specific" href="lorenagomes.html">LORENA GOMES</a>
+        <a class="specific" href="bbvirtual.html">BEBÊ VIRTUAL</a>
+        <a class="specific" href="servicos.html">SERVIÇOS</a>
+        <a class="specific" href="contato.html">CONTATO</a>
+        <a class="specific" href="pacientes.html">PACIENTES</a>
+    </nav> 
+    <!--.............MUTÁVEIS...............-->
+    <div id="containerQSE">
+        <div id="minhaLo3"></div>
+
+        <h1>Veja as mais variadas formas de entrar em contato</h1>
+
+        <p>Qual é a melhor forma para você?</p>
+        <table>
+            <tr>
+                <td>Whatsapp</td>
+                
+                <td>
+                    <a href="https://wa.me//5511956939871?text=Tenho%20interesse%20em%20seus%20serviços%20Dr%20Lorena">
+                        <span style="border: none; color: goldenrod; height: 100%; padding-top: 15%;" class="material-symbols-outlined">
+                            stream_apps
+                        </span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>
+                    <a onclick="message()">
+                        <span style="border: none; color: goldenrod; height: 100%; padding-top: 15%;" class="material-symbols-outlined">
+                            mail
+                        </span>
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h1>Quero marcar agora!</h1>
+        <form action="" id="dadosCliente">
+            <table>
+                <tr>
+                    <td><label for="nm">Nome:</label></td>
+                    <td><input type="text" name="nm" id="nm"></td>
+                </tr>
+                <tr>
+                    <td><label for="num">Telefone:</label></td>
+                    <td><input type="tel" name="num" id="num"></td>
+                </tr>
+                <tr>
+                    <td><label for="sx">Gênero:</label></td>
+                    <td>
+                        <select name="sx" id="sx">
+                            <option value="m">Mulher</option>
+                            <option value="h">Homem</option>
+                            <option value="ot">Outro/Não informar</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="idad">Idade</label></td>
+                    <td><input type="number" name="idad" id="idad"></td>
+                </tr>
+                <tr>
+                    <td><label for="data">Data</label></td>
+                    <td><input type="date" name="data" id="data"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 10px;">
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!--.............CONNECT...............-->
+    <footer>Desenvolvido por: Elioenai Technologies ♛</footer>
+
+    <script src="tendoes.js"></script>
+</body>
+</html>
